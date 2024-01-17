@@ -1,4 +1,54 @@
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+#listaProductos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.tarjeta {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.tarjeta img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    background-color: #4a53ac;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#resumenCarrito {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+.item-carrito {
+    margin: 5px 0;
 }
