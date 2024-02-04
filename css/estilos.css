@@ -7,7 +7,31 @@ body {
 header {
     background-color: #f0f0f0;
     padding: 10px;
-    text-align: center;
+}
+
+.header-contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-izquierda {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 50px; 
+    margin-right: 10px; 
+}
+
+.header-centro {
+    flex-grow: 1; 
+}
+
+.header-derecha {
+    display: flex;
+    align-items: center;
 }
 
 #listaProductos {
@@ -25,7 +49,8 @@ header {
 }
 
 .tarjeta img {
-    max-width: 100%;
+    max-width: 180px;
+    max-height: 180px;
     height: auto;
 }
 
@@ -45,10 +70,14 @@ button {
 #resumenCarrito {
     border: 1px solid #ddd;
     margin: 10px;
+    margin-top: 30px;
     padding: 10px;
     width: 300px;
 }
 
 .item-carrito {
     margin: 5px 0;
+}
+h1 {
+    margin-right: 30px; 
 }
